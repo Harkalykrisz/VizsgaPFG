@@ -1,0 +1,10 @@
+# csomagok frissítése
+sudo apt update
+sudo apt upgrade
+
+# webszerver telepítése és indítása
+sudo apt install apache2
+sudo systemctl start apache2
+
+# alapértelmezett weblap módosítása
+sudo nano /var/www/html/index.html
