@@ -1,0 +1,5 @@
+interface GigabitEthernet0/1
+ ip address 192.168.1.2 255.255.255.0
+ standby 1 ip 192.168.1.1
+ standby 1 priority 110
+ standby 1 preempt
